@@ -1,3 +1,7 @@
+*{
+    margin: 10px;
+    background-color: azure;
+}
 .mybutton{
     display:flex;
     color: blueviolet;
@@ -6,7 +10,7 @@
     align-items: center;
     justify-content: center;
     
-    background-color:white;
+    background-color:azure;
 }
 
 .bub{
@@ -34,14 +38,43 @@ p{
 #result{
     color: gold;
     font-size: 30px;
-    background-color: cadetblue;
+    background-color: rgb(180, 66, 66);
     box-sizing: border-box;
-    border-radius: 30%;
+    border-radius: 10px;
+    border: 3px solid darkblue;
     padding: 5px;
    text-align: center;
  margin-left: 40%;
  margin-right: 40%;
-#computerchoice{
+}
+.diivv{
+    display: flex;
+    background-color: lawngreen;
+    justify-content:center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    border: 5px solid rgb(32, 16, 2);
+   
+}
+.insidediv{
     
-    
+   background-color: lawngreen;
+   width: 50%;
+   text-align: center;
+   font-weight: 200;
+   font-size: 40px;
+
+}
+.text{
+    text-decoration: dotted underline;
+}
+#spaan{
+    border: 2px solid rgb(9, 9, 10);
+}
+.paragraph{
+    margin: 10px;
+    border: 5px solid darkgreen;
+    box-shadow: 5px 5px 5px 5px rebeccapurple;
+
 }
